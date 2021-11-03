@@ -4,20 +4,17 @@ hide_title: true
 sections:
   - section_id: hero
     type: section_hero
-    title: "Hi, I'm Stackbit Fresh."
+    title: "Hola, bienvenidos a nuestro blog personal"
     content: >-
-      This section can contain a subtitle or tagline. The recommended length is
-      one to three sentences, but can be changed as you prefer.
+      Este es un espacio dedicado a la opinión personal donde semanalmente actualizaremos a través de
+      temas de interés propio. 
   - section_id: about
     type: section_content
     title: About
     content: >-
-      This is the "about" excerpt. It can be used to provide a paragraph about
-      yourself that people can read on the homepage to get a sense of who you
-      are. There also exists a dedicated about page where you can write more
-      about yourself for those who are interested.
+      Puedes contactarnos mediante nuestros portafolios personales para cualquier tipo de duda, comentario o interés en específico.
     actions:
-      - label: Contact Me
+      - label: Contáctanos
         url: /contact
         style: button
   - section_id: recent-posts

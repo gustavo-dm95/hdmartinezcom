@@ -1,11 +1,11 @@
 {
-    "title": "Stackbit Fresh Theme",
+    "title": "HDMartínez",
     "path_prefix": "/",
     "layout_style": "overflow",
     "palette": "blue",
     "header": {
-        "title": "Stackbit Fresh",
-        "tagline": "Header Tagline",
+        "title": "HDMartínez",
+        "tagline": "Personal blog",
         "profile_img": "images/avatar.png",
         "profile_img_alt": "Author avatar",
         "background": "dark",
@@ -65,13 +65,6 @@
                 "url": "https://www.linkedin.com/",
                 "style": "icon",
                 "icon_class": "linkedin",
-                "new_window": true
-            },
-            {
-                "label": "DEV",
-                "url": "https://dev.to/",
-                "style": "icon",
-                "icon_class": "dev",
                 "new_window": true
             }
         ]
