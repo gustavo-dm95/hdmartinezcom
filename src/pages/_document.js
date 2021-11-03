@@ -42,7 +42,7 @@ export default class MyDocument extends Document {
                 }} />
                 <body {...this.helmetBodyAttrComponents}>
                     <Main />
-                    <script src={withPrefix('js/plugins.js')} />
+                    <script src="/js/plugins.js" />
                     <NextScript />
                 </body>
             </Html>
