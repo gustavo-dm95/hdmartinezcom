@@ -14,7 +14,7 @@ sections:
     content: >-
       Puedes contactarnos mediante nuestros portafolios personales para cualquier tipo de duda, comentario o interés en específico.
     actions:
-      - label: Contáctanos
+      - label: Contact us
         url: /contact
         style: button
   - section_id: recent-posts
@@ -26,17 +26,17 @@ sections:
         url: blog/index.html
         style: button
 seo:
-  title: Stackbit Fresh Theme
-  description: The preview of the Fresh theme
+  title: HD Martínez - Blog
+  description: Personal blog developed by L.E.H. Martínez & J.G.D. Martínez
   extra:
     - name: 'og:type'
       value: website
       keyName: property
     - name: 'og:title'
-      value: Stackbit Fresh Theme
+      value: HD Martínez - Blog
       keyName: property
     - name: 'og:description'
-      value: The preview of the Fresh theme
+      value: Personal blog developed by L.E.H. Martínez & J.G.D. Martínez
       keyName: property
     - name: 'og:image'
       value: images/4.jpg
@@ -45,9 +45,9 @@ seo:
     - name: 'twitter:card'
       value: summary_large_image
     - name: 'twitter:title'
-      value: Stackbit Fresh Theme
+      value: HD Martínez - Blog
     - name: 'twitter:description'
-      value: The preview of the Fresh theme
+      value: Personal blog developed by Luis Eduardo Hernández & Gustavo Daza
     - name: 'twitter:image'
       value: images/4.jpg
       relativeUrl: true

@@ -1,13 +1,13 @@
 {
-    "title": "HDMartínez",
+    "title": "hdmartinez.com",
     "path_prefix": "/",
     "layout_style": "overflow",
     "palette": "blue",
     "header": {
-        "title": "HDMartínez",
+        "title": "HD Martínez",
         "tagline": "Personal blog",
-        "profile_img": "images/avatar.png",
-        "profile_img_alt": "Author avatar",
+        "profile_img": "images/hdmartinez-logo.jpg",
+        "profile_img_alt": "HD Martinez logo, author Luis Eduardo Martinez",
         "background": "dark",
         "has_nav": true,
         "nav_links": [
