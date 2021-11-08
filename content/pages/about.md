@@ -1,11 +1,11 @@
 ---
 title: About Us
-subtitle: This is a short page about me and my work.
+subtitle: Este es un espacio a cerca de nosotros y nuestro trabajo.
 img_path: images/about.jpg
 img_alt: Portrait of a man with beard and mustache
 seo:
   title: About Me
-  description: This is the about me page
+  description: This is the about us page
   extra:
     - name: 'og:type'
       value: website
@@ -23,21 +23,28 @@ seo:
     - name: 'twitter:card'
       value: summary_large_image
     - name: 'twitter:title'
-      value: About Me
+      value: About Us
     - name: 'twitter:description'
-      value: This is the about me page
+      value: This is the about us page
     - name: 'twitter:image'
       value: images/about.jpg
       relativeUrl: true
 layout: page
 ---
 
-**John Doe** is a Senior Art Director from [Stockholm](https://en.wikipedia.org/wiki/Stockholm), Sweden. After graduating from The College of Visual Arts with a degree in Communication Design, he worked for three small graphic design shops where he honed his design style and sensibility.
+Aquí escribimos acerca de lo que aprendemos sobre la vida y queremos compartir. Buscamos que aprendas de nuestra experiencia y nosotros aprender de ti. 
 
-His work has been recognized by Communication Arts, Print, How, ID, IdN, AIGA, Effie, Archive, Graphis, AdFed and Rockport. Graphic Design USA named him a person to watch in 2019.
+Somos dos colaboradores en este blog, **Eduardo** y **Gustavo**. Ambos tenemos 26 años y nos conocemos desde los 12 años. Gran parte de nuestra vida la hemos podido compartir. Lo que más nos gusta es poder realizar proyectos en conjunto y en esta ocasión hemos aprovechado lo aprendido en tecnología para poder crear nuestro propio blog. 
 
->The world always seems brighter when you’ve just made something that wasn’t there before. <cite>Neil Gaiman</cite>
+No buscamos escribir sobre un tema en específico porque la vida es muy diversa como para enfocarnos en una solo tema. 
 
-As a hobby, John Doe authors the most influential design blog in Sweden with over 100,000 page views a month. He lives in Stockholm with his beautiful wife and two boys.
+> “Estoy convencido de que por lo menos la mitad de lo que separa a los emprendedores exitosos de los que no lo son es mera perseverancia.”
+<cite>Steve Jobs</cite>
 
-*Thank You for reading!*
+Acabamos de terminar un posgrado de maestría en administración. Nos encanta la programación, el diseño, la administración, la ciencia de datos, las estadísticas, las finanzas y las criptomonedas. Nuestros hobbies son leer, seguir aprendiendo en duolingo, platzi y crehana, escribir, hacer ejercicio y el fútbol. 
+
+¿Quieres saber más de nosotros? Solo dale click al botón de contacto y llenada el formulario. Nos encantará conocerte. 
+
+¿Quieres sabes más sobre cada uno? Visita nuestros blogs personales. Descubriendo a que nos dedicamos, nuestros portafolios profesionales y como nos apasiona nuestro trabajo.
+
+*Gracias por leer!*
