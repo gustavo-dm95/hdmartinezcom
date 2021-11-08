@@ -4,15 +4,14 @@ hide_title: true
 sections:
   - section_id: hero
     type: section_hero
-    title: "Hola, bienvenidos a nuestro blog personal"
+    title: "¡Bienvenido a nuestro mundo!"
     content: >-
-      Este es un espacio dedicado a la opinión personal donde semanalmente actualizaremos a través de
-      temas de interés propio. 
+      Aquí escribimos acerca de lo que aprendemos sobre la vida y lo queremos compartir. Buscamos que aprendas de nuestra experiencia y nosotros aprender de ti.
   - section_id: about
     type: section_content
     title: About
     content: >-
-      Puedes contactarnos mediante nuestros portafolios personales para cualquier tipo de duda, comentario o interés en específico.
+      ¿Quieres saber más sobre nosotros? Solo da click al botón de contacto y llena el formulario. Nos encantará interactuar contigo. 
     actions:
       - label: Contact us
         url: /contact

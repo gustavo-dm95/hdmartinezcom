@@ -26,7 +26,6 @@ sections:
           - Colaboración
           - Consultoría
           - Oferta laboral
-
           - Otro
       - input_type: textarea
         name: message
