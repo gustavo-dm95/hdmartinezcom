@@ -31,7 +31,10 @@ export default class MyDocument extends Document {
         // const pageProps = _.get(this.props, '__NEXT_DATA__.props.pageProps');
         return (
             <Html {...this.helmetHtmlAttrComponents}>
-                <Head>{this.helmetHeadComponents}</Head>
+                <Head>{this.helmetHeadComponents}
+                    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+                    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+                </Head>
                 <script async src="https://www.googletagmanager.com/gtag/js?id=G-XWGWPFDDR8"></script>
                 <script dangerouslySetInnerHTML={{
                     __html: ` window.dataLayer = window.dataLayer || [];

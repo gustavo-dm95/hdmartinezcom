@@ -27,7 +27,7 @@ sections:
         style: button
 seo:
   title: HD Martínez - Blog
-  description: Personal blog developed by L.E.H. Martínez & J.G.D. Martínez
+  description: Personal blog developed by Luis Eduardo Hernández & Gustavo Daza
   extra:
     - name: 'og:type'
       value: website
@@ -36,7 +36,7 @@ seo:
       value: HD Martínez - Blog
       keyName: property
     - name: 'og:description'
-      value: Personal blog developed by L.E.H. Martínez & J.G.D. Martínez
+      value: Personal blog developed by Luis Eduardo Hernández & Gustavo Daza
       keyName: property
     - name: 'og:image'
       value: images/hdmartinez-logo.jpg
