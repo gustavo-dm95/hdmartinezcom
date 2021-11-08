@@ -39,7 +39,7 @@ seo:
       value: Personal blog developed by L.E.H. Martínez & J.G.D. Martínez
       keyName: property
     - name: 'og:image'
-      value: images/4.jpg
+      value: images/hdmartinez-logo.jpg
       keyName: property
       relativeUrl: true
     - name: 'twitter:card'
@@ -49,7 +49,7 @@ seo:
     - name: 'twitter:description'
       value: Personal blog developed by Luis Eduardo Hernández & Gustavo Daza
     - name: 'twitter:image'
-      value: images/4.jpg
+      value: images/hdmartinez-logo.jpg
       relativeUrl: true
 layout: advanced
 ---
