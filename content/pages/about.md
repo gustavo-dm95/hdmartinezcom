@@ -41,9 +41,7 @@ No buscamos escribir sobre un tema en específico porque la vida es muy diversa 
 > “Estoy convencido de que por lo menos la mitad de lo que separa a los emprendedores exitosos de los que no lo son es mera perseverancia.”
 <cite>Steve Jobs</cite>
 
-Acabamos de terminar un posgrado de maestría en administración. Nos encanta la programación, el diseño, la administración, la ciencia de datos, las estadísticas, las finanzas y las criptomonedas. Nuestros hobbies son leer, seguir aprendiendo en duolingo, platzi y crehana, escribir, hacer ejercicio y el fútbol. 
-
-¿Quieres saber más de nosotros? Solo dale click al botón de contacto y llenada el formulario. Nos encantará conocerte. 
+Acabamos de terminar un posgrado de maestría en administración. Nos encanta la programación, el diseño, la administración, la ciencia de datos, las estadísticas, las finanzas y las criptomonedas. Nuestros hobbies son leer, seguir aprendiendo en duolingo, platzi y crehana, escribir, hacer ejercicio y el fútbol.
 
 ¿Quieres sabes más sobre cada uno? Visita nuestros blogs personales. Descubriendo a que nos dedicamos, nuestros portafolios profesionales y como nos apasiona nuestro trabajo.
 
