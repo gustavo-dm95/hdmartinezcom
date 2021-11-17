@@ -1,7 +1,7 @@
 ---
 title: About Us
 subtitle: Este es un espacio a cerca de nosotros y nuestro trabajo.
-img_path: images/about.jpg
+img_path: images/hdmartinez-img.jpg
 img_alt: Portrait of a man with beard and mustache
 seo:
   title: About Me
@@ -17,7 +17,7 @@ seo:
       value: This is the about me page
       keyName: property
     - name: 'og:image'
-      value: images/about.jpg
+      value: images/hdmartinez-img.jpg
       keyName: property
       relativeUrl: true
     - name: 'twitter:card'
@@ -27,7 +27,7 @@ seo:
     - name: 'twitter:description'
       value: This is the about us page
     - name: 'twitter:image'
-      value: images/about.jpg
+      value: images/hdmartinez-img.jpg
       relativeUrl: true
 layout: page
 ---
