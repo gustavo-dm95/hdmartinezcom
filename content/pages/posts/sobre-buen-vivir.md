@@ -5,7 +5,7 @@ excerpt: >-
 date: '2021-11-21'
 thumb_img_path: images/buen-vivir.jpg
 thumb_img_alt: A thoughtful man in a mountain
-content_img_path: images/5.jpg
+content_img_path: images/buen-vivir.jpg
 content_img_alt: A thoughtful man in a mountain
 seo:
   title: ¿Sobre el buen vivir?
