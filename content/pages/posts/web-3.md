@@ -38,7 +38,7 @@ seo:
       relativeUrl: true
 layout: post
 ---
-*Written by* [Juan Gustavo Daza Martínez](https://gustavodazamcom-c6168.netlify.app)
+*Written by* **[Juan Gustavo Daza Martínez](https://gustavodazamcom-c6168.netlify.app)**
 
 Con el anuncio de Mark Zuckerberg donde confirmó el cambio de nombre de su empresa Facebook 
 a Meta, la web 3.0 ya esta dando sus primeros pasos con las voces de los gigantes en tecnología, y es que no solo Facebook ya esta haciendo alusión de este nuevo mundo digital, grandes compañías como Microsoft, NVIDIA y hasta Google ya se han adentrado a este concepto el cual es una apuesta que para muchos, que más que una apuesta, ya es una realidad.
