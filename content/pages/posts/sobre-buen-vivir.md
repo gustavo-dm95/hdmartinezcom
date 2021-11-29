@@ -39,7 +39,7 @@ seo:
 layout: post
 ---
 
-Written by **Luis Eduardo Hernández**
+*Written by* **Luis Eduardo Hernández**
 
 Supongo que la cuestión es mas compleja de lo que parece, es una pregunta difícil que la podemos intercambiar por una más fácil como ¿Soy feliz ahora? ¿Cómo me siento en este momento?
 Podría decir que la felicidad no existe. Pero creo que hay formas de crear bienestar, donde el principal motor de esta felicidad viene en el interior del individuo, porque los goces más elevados, variados y durables son los del espíritu como decía Schopenhauer en su libro Sobre el buen vivir, consejos para ser feliz. 
