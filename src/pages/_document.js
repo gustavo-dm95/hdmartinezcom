@@ -34,6 +34,7 @@ export default class MyDocument extends Document {
                 <Head>{this.helmetHeadComponents}
                     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
                     <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+                    <link rel="icon" type="image/ico" href="images/favicon.ico" />
                 </Head>
                 <script async src="https://www.googletagmanager.com/gtag/js?id=G-XWGWPFDDR8"></script>
                 <script dangerouslySetInnerHTML={{
