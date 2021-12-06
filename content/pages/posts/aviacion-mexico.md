@@ -2,7 +2,7 @@
 title: El gran futuro de la aviación en México I.
 excerpt: >-
   Es penoso lo que ha pasado en los últimos años con la industria aeronautica en nuestro país (y en muchas industrias) desde que el nuevo gobierno tomó las riendas de la administración de México y es que, a pesar de la gran crisis que generó la pandemia de COVID-19, la aviación mexicana ya se venía pisando mal y sin alguna señal de crecimiento a corto o largo plazo.
-date: '2021-11-29'
+date: '2021-11-28'
 thumb_img_path: images/aviacion-mex1.jpg
 thumb_img_alt: La aviación en México I
 content_img_path: images/aviacion-mex1.jpg
