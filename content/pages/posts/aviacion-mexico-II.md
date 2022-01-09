@@ -2,7 +2,7 @@
 title: El gran futuro de la aviación en México II.
 excerpt: >-
   Es alarmante observar a una industria tan importante como lo es la área, tomando cada vez menos relevancia en el crecimiento y desarrollo sustentable para los gobiernos, los inversores, accionistas o cualquier agente económico que tenga intereses lucrativos con productos o servicios en los cuales generar rendimientos.
-date: '2021-11-28'
+date: '2022-01-09'
 thumb_img_path: images/aviacion-mexico-II.jpg
 thumb_img_alt: La aviación en México II
 content_img_path: images/aviacion-mexico-II.jpg
