@@ -10,6 +10,7 @@ content_img_alt: Cripto coins like Bitcoin, Ethereum, Litecoin or IOTA
 seo:
   title: Blockchain Generations
   description: Grandes etapas marcadas por grandes proyectos.
+  extra:
     - name: 'og:type'
       value: article
       keyName: property
