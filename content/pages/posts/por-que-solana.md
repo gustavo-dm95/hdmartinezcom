@@ -2,7 +2,7 @@
 title: ¿Por qué Solana?
 excerpt: >-
     En los últimos días me he estado preguntando, ¿por qué Solana es un proyecto tan popular si realmente no es descentralizado?, según la fundación Solana, es un proyecto de código abierto sin permiso de la tecnología blockchain. Por lo tanto, empecé a buscar algunas de sus ventajas:
-date: '2021-12-19'
+date: '2022-02-13'
 thumb_img_path: images/por-que-solana.jpg
 thumb_img_alt: Solana cryptocurrency logo
 content_img_path: images/por-que-solana.jpg
