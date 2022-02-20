@@ -2,7 +2,7 @@
 title: La criptomoneda que no utliza blockchain... IOTA
 excerpt: >-
     La tecnología blockchain es y será una forma de procesar datos en la que muchas empresas y hasta gobiernos irán adoptando para distintos flujos de información y manejo de transacciones a futuro.
-date: '2021-12-12'
+date: '2022-02-20'
 thumb_img_path: images/IOTA-logo.png
 thumb_img_alt: IOTA logo
 content_img_path: images/IOTA-logo.png
