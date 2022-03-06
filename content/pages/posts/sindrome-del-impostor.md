@@ -2,7 +2,7 @@
 title: El síndrome del impostor
 excerpt: >-
   Todos en algún momento de la vida hemos experimentado miedo para realizar alguna acción fuera de nuestra zona de confort, inseguridad para estar a cargo de una responsabilidad importante, falta de confianza para atrevernos a hacer cosas que, por algún motivo, nuestro cerebro nos dice que no seremos capaces de hacerlo bien.
-date: '2022-02-06'
+date: '2022-03-06'
 thumb_img_path: images/sindrome-impostor.jpeg
 thumb_img_alt: Some sad people with happy masks
 content_img_path: images/sindrome-impostor.jpeg
