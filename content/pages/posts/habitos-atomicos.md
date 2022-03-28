@@ -2,7 +2,7 @@
 title: Review del libro de Hábitos Atómicos de James Clear
 excerpt: >-
     El libro empieza contando su historia, contándonos como un fuerte acontecimiento le marca la vida y como empieza a desarrollar buenos hábitos desde la universidad, provocando que tenga resultados extraordinarios.
-date: '2021-12-19'
+date: '2022-03-27'
 thumb_img_path: images/habitos-atomicos.jpg
 thumb_img_alt: Atomic habits book cover by James Clear 
 content_img_path: images/habitos-atomicos.jpg
