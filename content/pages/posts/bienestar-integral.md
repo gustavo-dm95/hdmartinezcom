@@ -3,10 +3,10 @@ title: El bienestar integral
 excerpt: >-
   El bienestar integral es un aspecto fundamental en nuestras vidas, es más, para la OMS [(Organización Mundial de la Salud)](https://www.who.int/es) es una forma de vida que debería prosperar en cada ser humano pero muchas varientes pueden mermar esta forma de vida para cualquier persona por conflictos que siempre van a surgir en el camino. Problemas financieros, de salud mental, emocional, familiar, físico, etc.
 date: '2022-04-03'
-thumb_img_path: images/bienestar-integral.md
-thumb_img_alt: A tree with all of important aspects for human's health 
-content_img_path: images/bienestar-integral.md
-content_img_alt: A tree with all of important aspects for human's health 
+thumb_img_path: images/bienestar-integral.png
+thumb_img_alt: The seven important elements of the integral health
+content_img_path: images/bienestar-integral.png
+content_img_alt: The seven important elements of the integral health
 seo:
   title: El bienestar integral
   description: Debemos tener en mente la importancia de nuestra salud en todos los aspectos para el desarrollo completo de nuestra persona.
@@ -22,7 +22,7 @@ seo:
         Debemos tener en mente la importancia de nuestra salud en todos los aspectos para el desarrollo completo de nuestra persona.
       keyName: property
     - name: 'og:image'
-      value: images/bienestar-integral.md
+      value: images/bienestar-integral.png
       keyName: property
       relativeUrl: true
     - name: 'twitter:card'
@@ -33,7 +33,7 @@ seo:
       value: >-
         Debemos tener en mente la importancia de nuestra salud en todos los aspectos para el desarrollo completo de nuestra persona.
     - name: 'twitter:image'
-      value: images/bienestar-integral.md
+      value: images/bienestar-integral.png
       relativeUrl: true
 layout: post
 ---
