@@ -33,6 +33,7 @@ seo:
     - name: 'twitter:description'
       value: >-
         La humildad y el ejemplo de Jesús de la mano de Francisco de Asís en el libro de Fray Ignacio Larrañaga.
+    - name: 'twitter:image'
       value: images/hermano-de-asis.jpg
       relativeUrl: true
 layout: post
