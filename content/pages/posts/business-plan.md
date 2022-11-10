@@ -1,5 +1,5 @@
 ---
-title: Plan de negocios... La primer semilla de cualquier empresa.
+title: Plan de negocios... La primer semilla de cualquier empresa
 excerpt: >-
     A simples cuentas, las empresas o negocios, aunque sean pequeños, requieren de estrategias y una planeación en la que se sepa la razón de su propia existencia por más básica que sea, obviamente con el fin de obtener ganancias con dichos productos, bienes o servicios que se ofrecerán.
 date: '2022-11-06'
