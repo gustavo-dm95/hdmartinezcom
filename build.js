@@ -28,7 +28,7 @@ const { ARTICLES } = DATA;
 
 /* ---------------- CONFIG DEL SITIO ---------------- */
 const SITE = {
-  baseUrl: 'https://hdmartinez.dev', // ← cámbialo por tu dominio real (sin slash final)
+  baseUrl: 'https://www.hdmartinez.com', // dominio real (sin slash final)
   name: 'hdmartinez',
   author: 'hdmartinez'
 };
