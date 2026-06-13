@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>hdmartinez — Datos · Código · Ideas</title>
+<meta name="description" content="Blog técnico sobre datos, analytics y desarrollo. Tech blog on data, analytics and development.">
+<link rel="canonical" href="https://hdmartinez.dev/index.html">
+<meta property="og:type" content="website">
+<meta property="og:title" content="hdmartinez — Datos · Código · Ideas">
+<meta property="og:description" content="Blog técnico sobre datos, analytics y desarrollo.">
+<meta property="og:url" content="https://hdmartinez.dev/index.html">
+<!-- Evita el flash de tema: fija data-theme antes de pintar -->
+<script>(function(){try{var t=localStorage.getItem('hdm-theme');if(t!=='dark'&&t!=='light'){t=matchMedia('(prefers-color-scheme: light)').matches?'light':'dark';}document.documentElement.dataset.theme=t;}catch(e){document.documentElement.dataset.theme='dark';}})();</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+<a class="skip-link" href="#app" data-i18n="skip">Saltar al contenido</a>
+
+<header class="nav">
+  <a href="#home" class="brand" data-i18n-aria="aria.brand" aria-label="hdmartinez — ir al inicio">
+    <span class="brand-hd">hd</span>martinez<span class="brand-cursor">_</span>
+  </a>
+  <nav class="nav-links" data-i18n-aria="aria.nav" aria-label="Navegación principal">
+    <a href="#home" class="nav-link" data-route="home" data-i18n="nav.home">Inicio</a>
+    <a href="#posts" class="nav-link" data-route="posts" data-i18n="nav.posts">Blog</a>
+    <a href="#about" class="nav-link" data-route="about" data-i18n="nav.about">Sobre mí</a>
+    <a href="#contact" class="nav-link" data-route="contact" data-i18n="nav.contact">Contacto</a>
+  </nav>
+  <button id="lang-toggle" class="lang-toggle" aria-label="Switch to English">
+    <span data-lang-opt="es" class="active">ES</span><span data-lang-opt="en">EN</span>
+  </button>
+  <button id="theme-toggle" class="theme-toggle" aria-label="Cambiar a tema claro">
+    <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+    <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3 7 7 0 0 0 21 12.8z"/></svg>
+  </button>
+</header>
+
+<main id="app">
+
+  <!-- ================= HOME ================= -->
+  <section id="route-home" class="route" data-route="home">
+    <div class="hero" id="hero">
+      <canvas id="hero-canvas" aria-hidden="true"></canvas>
+      <div class="hero-content">
+        <p class="eyebrow" data-i18n="hero.eyebrow">Blog técnico · en español</p>
+        <h1 class="wordmark"><span class="wm-hd">hd</span>martinez</h1>
+        <p class="hero-sub"><span data-i18n="hero.w1">Imagina</span><i>●</i><span data-i18n="hero.w2">Explora</span><i>●</i><span data-i18n="hero.w3">Crea</span></p>
+        <div class="hero-cta">
+          <a href="#posts" class="btn btn-primary" data-i18n="hero.cta">Ir a Blog</a>
+        </div>
+      </div>
+      <div class="hero-scroll" aria-hidden="true">scroll ↓</div>
+    </div>
+
+    <section class="section" aria-labelledby="recientes-title">
+      <div class="section-head">
+        <p class="eyebrow" data-i18n="home.eyebrow">Lo último</p>
+        <h2 id="recientes-title" data-i18n="home.title">Posts recientes</h2>
+        <p class="section-sub" data-i18n="home.sub">SQL, Python, BI moderno y la carrera en datos — escrito desde la trinchera, sin humo.</p>
+      </div>
+      <div id="recent-grid" class="cards-grid"></div>
+      <div class="center">
+        <a href="#posts" class="btn btn-ghost" data-i18n="home.archive">Ir a todos los posts →</a>
+      </div>
+    </section>
+  </section>
+
+  <!-- ================= POSTS ================= -->
+  <section id="route-posts" class="route" data-route="posts" hidden>
+    <div class="container">
+      <div class="page-head">
+        <p class="eyebrow" data-i18n="posts.eyebrow">Archivo</p>
+        <h2 data-i18n="posts.title">Todos los artículos</h2>
+        <p class="section-sub" id="posts-count"></p>
+        <div class="search-wrap">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+          <input type="search" id="search-input" class="search-input"
+                 placeholder="Buscar por título o tag…"
+                 aria-label="Buscar artículos por título o tag">
+        </div>
+        <div class="filter-row" id="filter-row" aria-live="polite"></div>
+      </div>
+      <div id="posts-list" class="posts-area"></div>
+    </div>
+  </section>
+
+  <!-- ================= ABOUT ================= -->
+  <section id="route-about" class="route" data-route="about" hidden>
+    <div class="section">
+      <div class="section-head">
+        <p class="eyebrow" data-i18n="about.eyebrow">Sobre mí</p>
+        <h2 data-i18n="about.title">Hola, soy hdmartinez</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-bio">
+          <p data-i18n="about.p1">Desarrollador BI y analista de datos desde Ciudad de México. Llevo años construyendo dashboards, modelos de datos y pipelines para empresas que necesitan respuestas, no diapositivas bonitas. Hoy mi camino apunta hacia la ingeniería analítica: SQL como lengua materna, Python como navaja suiza, y la nube como taller.</p>
+          <p data-i18n="about.p2">Este blog existe porque la mayoría del contenido técnico de calidad está en inglés, y porque creo que las PyMEs hispanohablantes merecen analítica seria sin traducciones a medias. Escribo lo que me hubiera gustado leer cuando empecé: directo, con código real y con las cicatrices incluidas.</p>
+          <p class="dim" data-i18n="about.p3">Cuando no estoy frente a un IDE, estoy en el gimnasio de box o sufriendo con Pumas y la Juve. Las tres cosas enseñan lo mismo: la constancia gana.</p>
+          <div class="about-cta">
+            <h3 data-i18n="about.cta.title">¿Tienes un proyecto de datos en mente?</h3>
+            <p data-i18n="about.cta.text">Cuéntame qué problema quieres resolver y vemos cómo atacarlo.</p>
+            <a href="#contact" class="btn btn-primary" data-i18n="about.cta.btn">Escríbeme</a>
+          </div>
+        </div>
+        <aside>
+          <p class="subhead" data-i18n="about.stack">Stack &amp; herramientas</p>
+          <div class="chips">
+            <span class="chip">Power BI</span>
+            <span class="chip">SQL</span>
+            <span class="chip">Snowflake</span>
+            <span class="chip">Python</span>
+            <span class="chip">dbt</span>
+            <span class="chip">Pandas</span>
+            <span class="chip">DAX</span>
+            <span class="chip">Git</span>
+            <span class="chip">Fabric</span>
+            <span class="chip">PySpark</span>
+          </div>
+          <p class="subhead" style="margin-top:36px;" data-i18n="about.journey">Trayectoria</p>
+          <ol class="timeline">
+            <li>
+              <span class="tl-year">2019</span>
+              <p class="tl-title" data-i18n="tl1.title">Primeros datos</p>
+              <p class="tl-desc" data-i18n="tl1.desc">De Excel a SQL: reportes que dejaron de romperse los lunes.</p>
+            </li>
+            <li>
+              <span class="tl-year">2021</span>
+              <p class="tl-title" data-i18n="tl2.title">BI Developer</p>
+              <p class="tl-desc" data-i18n="tl2.desc">Power BI + SQL Server en producción, modelos tabulares y DAX serio.</p>
+            </li>
+            <li>
+              <span class="tl-year">2023</span>
+              <p class="tl-title" data-i18n="tl3.title">Stack en la nube</p>
+              <p class="tl-desc" data-i18n="tl3.desc">Snowflake y Python para pipelines: el warehouse dejó de vivir en un servidor bajo el escritorio.</p>
+            </li>
+            <li>
+              <span class="tl-year">2025</span>
+              <p class="tl-title" data-i18n="tl4.title">Analytics engineering</p>
+              <p class="tl-desc" data-i18n="tl4.desc">dbt, orquestación y consultoría de datos para PyMEs en México.</p>
+            </li>
+          </ol>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CONTACT ================= -->
+  <section id="route-contact" class="route" data-route="contact" hidden>
+    <div class="section">
+      <div class="section-head">
+        <p class="eyebrow" data-i18n="contact.eyebrow">Contacto</p>
+        <h2 data-i18n="contact.title">Hablemos de datos</h2>
+        <p class="section-sub" data-i18n="contact.sub">Proyectos, colaboraciones, dudas técnicas o simplemente saludar — todo es bienvenido.</p>
+      </div>
+      <div class="contact-grid">
+        <form id="contact-form" novalidate>
+          <div class="field">
+            <label for="f-nombre" data-i18n="contact.name">Nombre</label>
+            <input type="text" id="f-nombre" name="nombre" autocomplete="name" required>
+          </div>
+          <div class="field">
+            <label for="f-email" data-i18n="contact.email">Email</label>
+            <input type="email" id="f-email" name="email" autocomplete="email" required>
+          </div>
+          <div class="field">
+            <label for="f-mensaje" data-i18n="contact.message">Mensaje</label>
+            <textarea id="f-mensaje" name="mensaje" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" data-i18n="contact.send">Enviar mensaje</button>
+          <p class="form-note" id="form-note" role="status" aria-live="polite"></p>
+        </form>
+        <aside class="contact-aside">
+          <p class="subhead" data-i18n="contact.directEmail">Email directo</p>
+          <a class="contact-email" href="mailto:hola@hdmartinez.dev">hola@hdmartinez.dev</a>
+          <p class="subhead" data-i18n="contact.social">Redes</p>
+          <div class="socials">
+            <a class="social-link" href="https://github.com/hdmartinez" data-i18n-aria="social.github" aria-label="GitHub de hdmartinez" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.55v-2.15c-3.2.7-3.87-1.36-3.87-1.36-.52-1.33-1.28-1.68-1.28-1.68-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.03 1.76 2.69 1.25 3.34.96.1-.74.4-1.25.72-1.54-2.55-.29-5.23-1.28-5.23-5.68 0-1.26.45-2.28 1.18-3.09-.12-.29-.51-1.46.11-3.05 0 0 .96-.31 3.15 1.18a10.9 10.9 0 0 1 5.74 0c2.18-1.49 3.14-1.18 3.14-1.18.63 1.59.24 2.76.12 3.05.74.81 1.18 1.83 1.18 3.09 0 4.41-2.69 5.38-5.25 5.67.41.35.77 1.05.77 2.12v3.14c0 .3.21.67.8.55A10.52 10.52 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z"/></svg>
+            </a>
+            <a class="social-link" href="https://www.linkedin.com/in/hdmartinez" data-i18n-aria="social.linkedin" aria-label="LinkedIn de hdmartinez" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45z"/></svg>
+            </a>
+            <a class="social-link" href="https://x.com/hdmartinez" data-i18n-aria="social.x" aria-label="Twitter/X de hdmartinez" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.9 1.15h3.68l-8.04 9.19L24 22.85h-7.41l-5.8-7.58-6.64 7.58H.47l8.6-9.83L0 1.15h7.59l5.24 6.93 6.07-6.93zm-1.29 19.5h2.04L6.49 3.24H4.3l13.31 17.41z"/></svg>
+            </a>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  © 2026 hdmartinez <span class="dot">●</span> <span data-i18n="footer.text">Hecho con SQL, café y tres pantallas.</span>
+</footer>
+
+<!-- Scripts: data → chrome (tema/idioma) → hero (Three.js diferido) → home (router/listado) -->
+<script defer src="assets/js/data.js"></script>
+<script defer src="assets/js/chrome.js"></script>
+<script defer src="assets/js/hero.js"></script>
+<script defer src="assets/js/home.js"></script>
+<script defer src="assets/js/contact.js"></script>
+</body>
+</html>

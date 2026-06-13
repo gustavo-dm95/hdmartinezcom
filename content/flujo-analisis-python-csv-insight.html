@@ -1,0 +1,48 @@
+<!-- ============================================================
+     ANDAMIO AUTOGENERADO — reemplaza este contenido con tu artículo.
+     Etiquetas disponibles (ya estilizadas): h2, h3, p, ul/ol,
+     <pre><code>, blockquote, <figure><img>, <div class="callout">.
+     Tras editar, corre:  node build.js
+     ============================================================ -->
+<p>Notebook, ambiente virtual, perfilado rápido con pandas y un checklist de calidad de datos que me ha salvado de publicar conclusiones falsas.</p>
+
+<p>Este es un <strong>andamio de ejemplo</strong>. Borra todo lo que hay debajo
+y escribe tu artículo usando estas etiquetas — ya vienen con estilo.</p>
+
+<h2>Por qué importa</h2>
+<p>Un par de párrafos que sitúan el problema. Aquí va el contexto: qué dolió,
+qué intentaste primero y por qué eso te trajo hasta este texto.</p>
+
+<div class="callout">
+  <strong>Nota:</strong> los bloques <code>callout</code> sirven para resaltar
+  una idea clave, una advertencia o un atajo.
+</div>
+
+<h2>Manos a la obra</h2>
+<p>Introduce el ejemplo y luego muestra el código:</p>
+
+<pre><code>import polars as pl
+
+ventas = pl.read_parquet(&quot;ventas.parquet&quot;)
+resumen = (
+    ventas
+    .group_by(&quot;categoria&quot;)
+    .agg(pl.col(&quot;monto&quot;).sum().alias(&quot;total&quot;))
+    .sort(&quot;total&quot;, descending=True)
+)
+print(resumen.head())</code></pre>
+
+<p>Explica qué hace el snippet y cuál fue el resultado medido.</p>
+
+<h3>Un detalle fino</h3>
+<ul>
+  <li>Primer punto que descubriste.</li>
+  <li>Segundo punto, con su matiz.</li>
+  <li>Tercero: el que casi nadie menciona.</li>
+</ul>
+
+<blockquote>La conclusión en una frase que valga la pena citar.</blockquote>
+
+<h2>Cierre</h2>
+<p>Resume el aprendizaje y deja una llamada a la acción: prueba esto,
+mídelo en tu caso y cuéntame cómo te fue.</p>
